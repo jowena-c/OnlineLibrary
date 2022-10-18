@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookworm Shack</title>
+    <script src="https://kit.fontawesome.com/408ec40bbd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class='nav-bar'>
+            <div class='logo'><a href="home.html"><img src="images/icon_small.png" width="120px" ></a>
+            </div>
+            <input type='checkbox' id='check' />
+
+
+            <span class="menu">
+                <a href="home.html" target="_self">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="account.html">Account</a>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+
+    <div class="search-bar">
+        <div class="search">
+            <label for="genre">Genre:</label>
+                <select name="genre" placeholder="Select Genre" id="genre" class="input-field">
+                    <option value="1">All</option>
+                    <option value="2">Documentary</option>
+                    <option value="3">Fiction</option>
+                    <option value="4">Horror</option>
+                    <option value="5">Inspirational</option>
+                    <option value="6">Non-Fiction</option>
+                    <option value="7">Romance</option>
+
+                <label for="title"></label>
+                <input type="title" placeholder="Title/Author" id="title" class="input-field">
+
+                <button class="btn">Search</button>
+                </select><br><br>
+        </div>
+    </div>
+    
+
+    <div class="book-container">
+
+        <!-- book 1 -->
+        <div class="card">
+            <img class="book-cover" src="images/image1.jpg">
+            <div class="book-info">
+                <div class="title">To Kill a Mockingbird
+                    <p>
+                        Harper Lee<br>
+                        July 11,1960
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="readmore.html">Read more...</a></span>
+                </p>
+
+                <div class="price">₱1,839.49</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- book 2 -->
+        <div class="card">
+            <img class="book-cover" src="images/image2.jpg">
+            <div class="book-info">
+                <div class="title">The Great Gatsby
+                    <p>
+                        F. Scott Fitzgelard<br>
+                        April 10, 1925
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱1,761.00</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- book 3 -->
+        <div class="card">
+            <img class="book-cover" src="images/image3.jpg">
+            <div class="book-info">
+                <div class="title">Nineteen Eighty-Four
+                    <p>
+                        George Orwell<br>
+                        June 8,1949
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱1,899.50</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div>        
+
+
+        <!-- book 4 -->
+        <div class="card">
+            <img class="book-cover" src="images/image4.jpg">
+            <div class="book-info">
+                <div class="title">Adventures of Huckleberry Finn
+                    <p>
+                        Mark Twain<br>
+                        December 10, 1884
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱1,044.00</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div> 
+
+
+        <!-- book 5 -->
+        <div class="card">
+            <img class="book-cover" src="images/image5.jpg">
+            <div class="book-info">
+                <div class="title">Red Queen
+                    <p>
+                        Victoria Aveyard<br>
+                        January 5, 2016
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱2,339.50</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div> 
+
+
+        <!-- book 6 -->
+        <div class="card">
+            <img class="book-cover" src="images/image6.jpg">
+            <div class="book-info">
+                <div class="title">It Ends with Us
+                    <p>
+                        Colleen Hoover<br>
+                        August 2, 2016
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱1,899.50</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- book 7 -->
+        <div class="card">
+            <img class="book-cover" src="images/image7.jpg">
+            <div class="book-info">
+                <div class="title">Fairy Tale
+                    <p>
+                        Stephen King<br>
+                        September 5, 2022
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱3,610.49</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div> 
+
+
+        <!-- book 8 -->
+        <div class="card">
+            <img class="book-cover" src="images/image8.jpg">
+            <div class="book-info">
+                <div class="title">The Alchemist
+                    <p>
+                        Paulo Coelho<br>
+                        1988
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱1,234.50</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div> 
+
+
+        <!-- book 9 -->
+        <div class="card">
+            <img class="book-cover" src="images/image9.jpg">
+            <div class="book-info">
+                <div class="title">Frankenstein
+                    <p>
+                        Mary Shelley<br>
+                        January 1, 1818
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱999.50</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div> 
+
+
+        <!-- book 10 -->
+        <div class="card">
+            <img class="book-cover" src="images/image10.jpg">
+            <div class="book-info">
+                <div class="title">Coraline
+                    <p>
+                        Neil Gaiman<br>
+                        July 2, 2002
+                    </p>  
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span> Alias voluptatum soluta voluptatibus quam expedita velit veniam ipsum qui aliquam, saepe pariatur cumque vero dolore nihil placeat enim dicta recusandae aut.
+                    </span>
+                    <span class="read-more"><a href="#">Read more...</a></span>
+                </p>
+
+                <div class="price">₱2,234.50</div>
+
+                <div class="buttons">
+                    <a class="btn-cart" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Add to Cart</span>
+                    </a>
+
+                    <a class="btn-wishlist" href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Wishlist</span>
+                    </a>
+
+                    <a class="btn-buy" href="checkout.html" target="_blank">
+                        Buy Now
+                    </a>
+
+                </div>
+            </div>
+        </div> 
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

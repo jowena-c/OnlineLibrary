@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookworm Shack</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class='nav-bar'>
+            <div class='logo'><a href="home.html"><img src="images/icon_small.png" width="120px" ></a>
+            </div>
+            <input type='checkbox' id='check' />
+
+
+            <span class="menu">
+                <a href="home.html" target="_self">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="account.html">Account</a>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </div>
+        </nav>
+    
+    <!-- <div class="contact-us-container">
+        <form action="contact">
+            <div class="contact-us">
+                <h1>Contact Us</h1><br>
+
+            <div class="row">
+                <label for="fullname">Fullname</label>
+                <input type="text" placeholder="Juan Dela Cruz" id="email" class="input-field1">
+            
+                <label for="email">Email </label>
+                <input type="text" placeholder="you@example.com" id="email" class="input-field1">
+
+                <label for="concern-message">Message</label><br>
+                <textarea id="concern-message" name="concern-message" placeholder="Write something.." rows="5" cols="50"></textarea>
+
+
+                <input type="submit" value="Submit" class="submit-btn">
+
+            </div>
+    
+        </form>
+    </div> -->
+
+    <div class="contact-us-container">
+        <form action="contact">
+            <div class="contact-us">
+                <h1>Contact Us</h1><br>
+                <div class="row">
+                <div class="txt-field">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" required id="fullname">
+                </div>
+
+                <div class="txt-field">
+                    <label for="email">Email</label>
+                    <input type="password" required id="password">
+                </div>
+                
+                <label for="concern-message">Message</label><br>
+                <textarea id="concern-message" name="concern-message" placeholder="Write something.." rows="5" cols="50"></textarea>
+                
+                <input type="submit" value="Submit" class="submit-btn">
+                
+        
+            </form>
+
+    </div>
+
+</body>
+</html>
